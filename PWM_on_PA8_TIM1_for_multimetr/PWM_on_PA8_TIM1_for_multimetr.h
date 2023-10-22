@@ -1,0 +1,8 @@
+//
+// Created by petry on 19.09.2023.
+//
+
+#ifndef TEST_PWM_ON_PA8_TIM1_FOR_MULTIMETR_H
+#define TEST_PWM_ON_PA8_TIM1_FOR_MULTIMETR_H
+void Init_PWM_on_PA8_TIM1();
+#endif //TEST_PWM_ON_PA8_TIM1_FOR_MULTIMETR_H
