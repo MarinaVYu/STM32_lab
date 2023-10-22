@@ -1,8 +1,11 @@
 
 
+Breakpoint=C:/Users/petry/YandexDisk/for_Marina/test/ADC/ADC.c:30, State=BP_STATE_DISABLED
 Breakpoint=C:/Users/petry/YandexDisk/for_Marina/test/USART.c:88:25, State=BP_STATE_DISABLED
-OpenDocument="main.c", FilePath="C:/Users/petry/YandexDisk/for_Marina/test/Core/Src/main.c", Line=60
-OpenDocument="USART.c", FilePath="C:/Users/petry/YandexDisk/for_Marina/test/USART.c", Line=19
+Breakpoint=C:/Users/petry/YandexDisk/for_Marina/test/Core/Src/main.c:71, State=BP_STATE_ON
+OpenDocument="ADC.c", FilePath="C:/Users/petry/YandexDisk/for_Marina/test/ADC/ADC.c", Line=20
+OpenDocument="main.c", FilePath="C:/Users/petry/YandexDisk/for_Marina/test/Core/Src/main.c", Line=61
+OpenDocument="USART.c", FilePath="C:/Users/petry/YandexDisk/for_Marina/test/USART.c", Line=28
 OpenDocument="PWM_2.c", FilePath="C:/Users/petry/YandexDisk/for_Marina/test/PWM_2.c", Line=0
 OpenDocument="startup_stm32f100xb.s", FilePath="C:/Users/petry/YandexDisk/for_Marina/test/startup_stm32f100xb.s", Line=57
 OpenDocument="Work_on_mistakes.c", FilePath="C:/Users/petry/YandexDisk/for_Marina/test/Work_on_mistakes.c", Line=9
@@ -15,15 +18,18 @@ OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=0, w=353, h=506, TabPos=0, To
 OpenWindow="Functions", DockArea=LEFT, x=0, y=0, w=353, h=506, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
 OpenWindow="Data Sampling", DockArea=BOTTOM, x=0, y=0, w=765, h=204, TabPos=0, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
 OpenWindow="Console", DockArea=BOTTOM, x=0, y=0, w=765, h=204, TabPos=1, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[163;147;287]
 TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time"], ColWidths=[100;100]
 TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[100;100;100;100;100;100;100;101;110]
 TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[595;100;100;100;100]
 TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
 TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
 TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[140;117;100;100]
-TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[163;147;798]
 TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;359]
 WatchedExpression="date", RefreshRate=5, Window=Watched Data 1
 WatchedExpression="result", RefreshRate=5, Window=Watched Data 1
 WatchedExpression="value", Window=Watched Data 1
 WatchedExpression="buffer", Window=Watched Data 1
+WatchedExpression="buffer_ADC", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="i_ADC", Window=Watched Data 1
+WatchedExpression="j_ADC", Window=Watched Data 1

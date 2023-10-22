@@ -40,7 +40,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define VALUE_BY_FLAG
+#define PROGRAM_DELAY
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -68,23 +68,22 @@ void delay(int n);
 int main(void) {
     SystemClock_Config();
     init_ADC();
-//    Init_PWM_on_PB14_TIM15();
-//    Capture_TIM3();
-//    init_usart1();
-//#ifdef VALUE_BY_FLAG
-//    while (1) {
-//     for(int i=0; i < 1000; i++);
-//
-//        write_to_buffer(return_value());
-//    }
-//#endif
-//#ifndef VALUE_BY_FLAG
-//    init_TIM4();
-//#endif
+    Init_PWM_on_PB14_TIM15();
+    Capture_TIM3();
+    init_usart1();
+    #ifdef PROGRAM_DELAY
+        while (1) {
+            for(int i=0; i < 1000; i++);
+            write_to_buffer(return_value());
+        }
+    #endif
+    #ifndef PROGRAM_DELAY
+        init_TIM4();
+    #endif
 
-while (1){
+    while (1){
 
-}
+    }
 
 }
   /* USER CODE END 3 */
